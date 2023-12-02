@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@import url('https://fonts.googleapis.com/css?family=Inter:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap') crossorgin;
+@import url('https://fonts.googleapis.com/css2?family=Inria+Serif:wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap') crossorgin;
+
+/* Set the default font families */
+html {
+    font-family: 'Inter', 'Inria Serif', sans-serif;
+    scroll-behavior: smooth;
+}
+
+/* Set the serif font family for headings */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Inria Serif', serif;
+    font-weight: bold;
+}

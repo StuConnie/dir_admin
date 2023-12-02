@@ -1,0 +1,17 @@
+.container{
+    background: linear-gradient(45deg, #e13347, #bcb3f5, #f48e21, #23d5ab);
+    background-size: 300% 300%;
+    animation: color 25s ease-in-out infinite;
+}
+
+@keyframes color{
+    0%{
+        background-position: 0 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0 50%;
+    }
+}
